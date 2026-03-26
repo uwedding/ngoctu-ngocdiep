@@ -1,0 +1,25 @@
+.calendar-button .atcb-button {
+    font-size: 13px !important;
+}
+
+.event-section .event-grids h3 {
+    font-size: 17px !important;
+}
+
+.fancybox-inner {
+    height: 450px !important;
+}
+
+.wish-box {
+    height: 567px !important;
+}
+
+@media (max-width: 767px) {
+    .couple-section .details h2 {
+        font-size: 2.6rem;
+    }
+
+    .slide-title {
+        margin-top: 130px;
+    }
+}
