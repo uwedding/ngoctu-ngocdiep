@@ -151,6 +151,8 @@ function renderWishBox() {
   let added = 0;
   const baseCount = existingItems.length;
 
+  console.log(111111, messages);
+
   messages.reverse().forEach((m) => {
     const name = getField(m, ["Tên", "Name", "name"]) || "Khách";
     const content =
@@ -258,7 +260,6 @@ async function fetchMessages() {
       return obj;
     });
 
-    console.log("📥 Fetched messages:", messages);
     renderWishBox(); // render list into .wish-box
     startAutoShow(); // ✅ Chỉ gọi khi đã có dữ liệu
   } catch (err) {
